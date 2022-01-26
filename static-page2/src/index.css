@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#23252C;
+  ;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app {
+  background-color:#1A1B21;
+  width: 317px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.profile > img {
+  width: 317px;
+  height: 317px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile > h2 {
+  color: #FFFFFF;
+  font-size: 25px;
+}
+
+.profile > h4 {
+  color: #F3BF99;
+  font-size: 12.8px;
+}
+
+.profile > h5 {
+  color: #F5F5F5;
+  font-size: 10.24px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 115px 115px;
+  grid-template-rows: 34px;
+  justify-content: center;
+  grid-gap: 20px;
+}
+
+.buttons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #374151;
+}
+
+.buttons a img {
+  width: 16px;
+  margin-right: 5px;
+}
+
+.email-button {
+  background-color: white;
+}
+
+.linkedin-button {
+  background-color: #5093E2;
+}
+
+.about , .interests {
+  color: white;
+  width: 247px;
+  margin: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 25px 25px 25px 25px;
+  grid-template-rows: 25px;
+  justify-content: center;
+  grid-gap: 20px;
+}
+
+.footer div {
+  background-color: #918E9B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.about h3, .interests h3 {
+  font-size: 16px;
+}
+
+.about p, .interests ul {
+  font-size: 10.24px;
+}
